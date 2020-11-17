@@ -1,3 +1,33 @@
+//FONT SIZE
+.fnt-size-18{
+  font-size: 18px;
+}
+.fnt-size-24{
+  font-size: 24px;
+}
+//Background Color
+.bgdarkgrey{
+  background-color: #707070;
+}
+.bggrey{
+  background-color: #f1f1f1;
+}
+.bglightgrey{
+  background-color: #cecece;
+}
+.bgwhite{
+  background-color: #ffffff;
+}
+//BorderRadius
+.bd-rad-5{
+  border-radius: 5px;
+}
+.bd-rad-8{
+  border-radius: 8px;
+}
+.bd-rad-20{
+  border-radius: 20px;
+}
 .btn-blue {
   width: 100%;
   background-color: #226ddc;
@@ -64,6 +94,9 @@
 }
 .clr-lighgray {
   color: #a9aeb5;
+}
+.clr-darkgray {
+  color: #707070;
 }
 .cursor-pointer {
   cursor: pointer;
@@ -177,10 +210,23 @@ p {
 .mrg-bottom-10 {
   margin-bottom: 10px;
 }
+.mrg-bottom-50{
+  margin-bottom: 50px;
+}
 // Margin bottom ends here
 // Margin Minus
 .mrg-top-minus {
   margin-top: -9px;
+}
+//Padding
+.pd-87{
+  padding: 87px;
+}
+.pd-70 {
+  padding: 70px;
+}
+.pd-60 {
+  padding: 60px;
 }
 /* Padding Top */
 .pd-top-1 {
@@ -207,6 +253,30 @@ p {
 .pd-top-50 {
   padding-top: 50px;
 }
+.pd-top-27-5{
+  padding-top: 27.5px;
+}
+.pd-top-50-5{
+  padding-top: 50.5px;
+}
+.pd-top-51-5{
+  padding-top: 51.5px;
+}
+.pd-top-83-5{
+  padding-top: 83.5px;
+}
+.pd-top-84{
+  padding-top: 84px;
+}
+.pd-top-84-5{
+  padding-top: 84.5px;
+}
+.pd-top-85{
+  padding-top: 85px;
+}
+.pd-top-96-5{
+  padding-top: 96.5px;
+}
 .pd-top-100 {
   padding-top: 100px;
 }
@@ -227,12 +297,42 @@ p {
 .pd-bottom-50 {
   padding-bottom: 50px;
 }
+.pd-bottom-27-5{
+  padding-bottom: 27.5px;
+}
+.pd-bottom-50-5{
+  padding-bottom: 50.5px;
+}
+.pd-bottom-51-5{
+  padding-bottom: 51.5px;
+}
+.pd-bottom-83-5{
+  padding-bottom: 83.5px;
+}
+.pd-bottom-84{
+  padding-bottom: 84px;
+}
+.pd-bottom-84-5{
+  padding-bottom: 84.5px;
+}
+.pd-bottom-85{
+  padding-bottom: 85px;
+}
+.pd-bottom-96-5{
+  padding-bottom: 96.5px;
+}
+.pd-bottom-100 {
+  padding-bottom: 100px;
+}
 // PADDING LEFT
 .pd-left-0 {
   padding-left: 0;
 }
 .pd-left-5 {
   padding-left: 5px;
+}
+.pd-left-13 {
+  padding-left: 13px;
 }
 .pd-left-30 {
   padding-left: 30px;
@@ -253,6 +353,9 @@ p {
 }
 
 //fonts-weight
+.fnt-w-400 {
+  font-weight: 400;
+}
 .fnt-w-600 {
   font-weight: 600;
 }
@@ -260,6 +363,12 @@ p {
 //text-align
 .txt-align-cntr {
   text-align: center;
+}
+.txt-align-start{
+  text-align: start;
+}
+.align-selfcenter{
+  align-self: center;
 }
 
 .d-flex {
@@ -315,6 +424,9 @@ p {
 .color-grey {
   color: grey;
 }
+.color-white{
+  color: white;
+}
 .aln-itm-c {
   align-items: center;
 }
@@ -340,3 +452,15 @@ p {
 //     font-size: 16px;
 //   }
 // }
+//SIGN IN LOGIN BUTTON
+.signlogbtn{
+  width: 320px;
+  padding: 10px 40px;
+  border-radius: 8px;
+  border: none;
+}
+.signloginput{
+  width: 320px;
+  padding: 6px 5px;
+  border: 2px solid #f1f1f1;
+}
