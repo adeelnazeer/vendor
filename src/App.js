@@ -25,7 +25,6 @@ function App() {
   return (
     <BrowserRouter>
       <Route path={"/myorder"} exact component={MyOrder} />
-
       <Route path={"/"} exact component={Loginsignup}/>
       <Route path={"/signstepone"}exact  component={Signupstepone}/>
       <Route path={"/signsteptwo"} exact component={Signupsteptwo}/>
@@ -34,7 +33,6 @@ function App() {
       <Route path={"/resetpasstwo"} exact component={Resetpasstwo}/>
       <Route path={"/resetpassthree"} exact component={Resetpassthree}/>
       <Route path={"/login"} exact component={Login}/>
-
       <Route path={"/sales"} exact component={Sales} />
       <Route path={"/finance"} exact component={Finacne} />
       <Route path={"/transaction"} exact component={Transaction} />
