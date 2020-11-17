@@ -1,0 +1,34 @@
+.table-main {
+  padding: 0px 0px 0px 40px;
+  table {
+    width: 100%;
+    .td-one {
+      width: 15%;
+    }
+    .td-two {
+      width: 40%;
+    }
+    .td-three {
+      width: 15%;
+      text-align: center;
+    }
+    .td-four {
+      width: 15%;
+      text-align: center;
+    }
+    .td-five {
+      width: 15%;
+      text-align: end;
+    }
+    tr {
+      height: 120px;
+    }
+    img {
+      height: 20px;
+      padding-right: 20px;
+    }
+    // td{
+    //     padding: 0px 0px ;
+    // }
+  }
+}

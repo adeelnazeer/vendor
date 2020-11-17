@@ -2,7 +2,7 @@
 import React from "react";
 import Header from "../component/header/index";
 import SideNav from "../component/sideNav/index";
-import MyOrder from "../component/myOrder/index";
+import Transaction from "../component/transaction/index";
 export default () => {
   return (
     <div className="container-fluid container-backkground">
@@ -12,7 +12,7 @@ export default () => {
           <SideNav />
         </div>
         <div className="col-9 pd-left-0 ">
-          <MyOrder />
+          <Transaction />
         </div>
       </div>
     </div>
