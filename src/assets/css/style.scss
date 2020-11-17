@@ -1,31 +1,31 @@
 //FONT SIZE
-.fnt-size-18{
+.fnt-size-18 {
   font-size: 18px;
 }
-.fnt-size-24{
+.fnt-size-24 {
   font-size: 24px;
 }
 //Background Color
-.bgdarkgrey{
+.bgdarkgrey {
   background-color: #707070;
 }
-.bggrey{
+.bggrey {
   background-color: #f1f1f1;
 }
-.bglightgrey{
+.bglightgrey {
   background-color: #cecece;
 }
-.bgwhite{
+.bgwhite {
   background-color: #ffffff;
 }
 //BorderRadius
-.bd-rad-5{
+.bd-rad-5 {
   border-radius: 5px;
 }
-.bd-rad-8{
+.bd-rad-8 {
   border-radius: 8px;
 }
-.bd-rad-20{
+.bd-rad-20 {
   border-radius: 20px;
 }
 .btn-blue {
@@ -216,7 +216,7 @@ p {
 .mrg-bottom-10 {
   margin-bottom: 10px;
 }
-.mrg-bottom-50{
+.mrg-bottom-50 {
   margin-bottom: 50px;
 }
 // Margin bottom ends here
@@ -225,7 +225,7 @@ p {
   margin-top: -9px;
 }
 //Padding
-.pd-87{
+.pd-87 {
   padding: 87px;
 }
 .pd-70 {
@@ -259,28 +259,28 @@ p {
 .pd-top-50 {
   padding-top: 50px;
 }
-.pd-top-27-5{
+.pd-top-27-5 {
   padding-top: 27.5px;
 }
-.pd-top-50-5{
+.pd-top-50-5 {
   padding-top: 50.5px;
 }
-.pd-top-51-5{
+.pd-top-51-5 {
   padding-top: 51.5px;
 }
-.pd-top-83-5{
+.pd-top-83-5 {
   padding-top: 83.5px;
 }
-.pd-top-84{
+.pd-top-84 {
   padding-top: 84px;
 }
-.pd-top-84-5{
+.pd-top-84-5 {
   padding-top: 84.5px;
 }
-.pd-top-85{
+.pd-top-85 {
   padding-top: 85px;
 }
-.pd-top-96-5{
+.pd-top-96-5 {
   padding-top: 96.5px;
 }
 .pd-top-100 {
@@ -303,28 +303,28 @@ p {
 .pd-bottom-50 {
   padding-bottom: 50px;
 }
-.pd-bottom-27-5{
+.pd-bottom-27-5 {
   padding-bottom: 27.5px;
 }
-.pd-bottom-50-5{
+.pd-bottom-50-5 {
   padding-bottom: 50.5px;
 }
-.pd-bottom-51-5{
+.pd-bottom-51-5 {
   padding-bottom: 51.5px;
 }
-.pd-bottom-83-5{
+.pd-bottom-83-5 {
   padding-bottom: 83.5px;
 }
-.pd-bottom-84{
+.pd-bottom-84 {
   padding-bottom: 84px;
 }
-.pd-bottom-84-5{
+.pd-bottom-84-5 {
   padding-bottom: 84.5px;
 }
-.pd-bottom-85{
+.pd-bottom-85 {
   padding-bottom: 85px;
 }
-.pd-bottom-96-5{
+.pd-bottom-96-5 {
   padding-bottom: 96.5px;
 }
 .pd-bottom-100 {
@@ -382,10 +382,10 @@ p {
 .txt-align-cntr {
   text-align: center;
 }
-.txt-align-start{
+.txt-align-start {
   text-align: start;
 }
-.align-selfcenter{
+.align-selfcenter {
   align-self: center;
 }
 
@@ -405,7 +405,7 @@ p {
 //header
 .logo {
   height: 35px;
-  opacity: 50%;
+  opacity: 0.5;
 }
 .icon-height {
   height: 20px;
@@ -443,7 +443,7 @@ p {
 .color-grey {
   color: grey;
 }
-.color-white{
+.color-white {
   color: white;
 }
 .aln-itm-c {
@@ -482,13 +482,13 @@ a:hover {
 //   }
 // }
 //SIGN IN LOGIN BUTTON
-.signlogbtn{
+.signlogbtn {
   width: 320px;
   padding: 10px 40px;
   border-radius: 8px;
   border: none;
 }
-.signloginput{
+.signloginput {
   width: 320px;
   padding: 6px 5px;
   border: 2px solid #f1f1f1;
