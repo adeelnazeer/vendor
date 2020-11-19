@@ -10,7 +10,7 @@ import Resetpasstwo from "./component/resetpasstwo/index";
 import Resetpassthree from "./component/resetpassthree/index";
 import Login from "./component/login/index";
 import "./assets/css/style.scss";
-// import "./asset/css/style.scss";
+import "./assets/css/responsive.scss";
 import Sales from "./container/sales";
 import Finacne from "./container/financeReport";
 import Transaction from "./container/transaction";
@@ -25,14 +25,14 @@ function App() {
   return (
     <BrowserRouter>
       <Route path={"/myorder"} exact component={MyOrder} />
-      <Route path={"/"} exact component={Loginsignup}/>
-      <Route path={"/signstepone"}exact  component={Signupstepone}/>
-      <Route path={"/signsteptwo"} exact component={Signupsteptwo}/>
-      <Route path={"/signstepthree"} exact component={Signupstepthree}/>
-      <Route path={"/resetpassone"} exact component={Resetpassone}/>
-      <Route path={"/resetpasstwo"} exact component={Resetpasstwo}/>
-      <Route path={"/resetpassthree"} exact component={Resetpassthree}/>
-      <Route path={"/login"} exact component={Login}/>
+      <Route path={"/"} exact component={Loginsignup} />
+      <Route path={"/signstepone"} exact component={Signupstepone} />
+      <Route path={"/signsteptwo"} exact component={Signupsteptwo} />
+      <Route path={"/signstepthree"} exact component={Signupstepthree} />
+      <Route path={"/resetpassone"} exact component={Resetpassone} />
+      <Route path={"/resetpasstwo"} exact component={Resetpasstwo} />
+      <Route path={"/resetpassthree"} exact component={Resetpassthree} />
+      <Route path={"/login"} exact component={Login} />
       <Route path={"/sales"} exact component={Sales} />
       <Route path={"/finance"} exact component={Finacne} />
       <Route path={"/transaction"} exact component={Transaction} />
@@ -43,7 +43,6 @@ function App() {
       <Route path={"/all-product"} exact component={AllProduct} />
       <Route path={"/profile"} exact component={Profile} />
       <Route path={"/new-product"} exact component={AddNewProduct} />
-
     </BrowserRouter>
   );
 }

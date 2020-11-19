@@ -1,6 +1,6 @@
 .plus-icon {
   height: 15px;
-  opacity: 50%;
+  opacity: 0.5;
 }
 .navbar {
   h6 {
@@ -15,7 +15,7 @@
     position: absolute;
     background-color: #ffffff;
     z-index: 500;
-    margin-right: 40px;
+    margin-right: 15px;
     width: 160px;
     margin-top: -25px;
     padding: 15px;
@@ -43,7 +43,36 @@
     box-shadow: 1px 1px 5px grey;
     border-radius: 5px;
   }
-  .p-view{
-      float: right;
+  .p-view {
+    float: right;
+  }
+}
+.show-for-mobile {
+  display: none;
+  .dot-img-mobile {
+    height: 25px;
+  }
+  .inner-div- {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 40px 20px;
+    top: 90px;
+    width: 100%;
+    left: 0px;
+    border: 1px solid gray;
+    z-index: 600;
+    background-color: #d8d7d7;
+    a {
+      flex: 1;
+      border-bottom: 1px solid gray;
+    }
+    p {
+      color: #a70000;
+      padding: 12px;
+      font-size: 18px;
+      margin-bottom: 0px;
+      font-weight: 700;
+    }
   }
 }

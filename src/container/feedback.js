@@ -8,10 +8,10 @@ export default () => {
     <div className="container-fluid container-backkground">
       <Header />
       <div className="row">
-        <div className="col-3 pd-right-0">
+        <div className="col-3 pd-right-0 side-nav-bar">
           <SideNav />
         </div>
-        <div className="col-9 pd-left-0 ">
+        <div className="col-9 pd-left-0 right-container">
           <FeedBack />
         </div>
       </div>
