@@ -4,6 +4,7 @@
 @import "./transaction.scss";
 @import "./orderListr.scss";
 @import "./myStore.scss";
+@import "./logins.scss";
 
 @media (max-width: 1366px) and (min-width: 1024px) {
   .container-backkground {
@@ -46,52 +47,52 @@
   }
 }
 @media (max-width: 767px) and (min-width: 685px) {
-    .container-backkground {
-        padding: 15px !important;
-        margin: 0px !important;
-        // border-bottom: 1px solid gray;
-      }
-      .header-main {
-        display: none !important;
-      }
-      .show-for-mobile {
-        display: block;
-      }
-      .side-nav-bar {
-        display: none;
-      }
-      .right-container {
-        max-width: 100% !important;
-        flex: 1 !important;
-        padding: 0px !important;
-      }
-      .row {
-        margin: 0px !important;
-      }
+  .container-backkground {
+    padding: 15px !important;
+    margin: 0px !important;
+    // border-bottom: 1px solid gray;
+  }
+  .header-main {
+    display: none !important;
+  }
+  .show-for-mobile {
+    display: block;
+  }
+  .side-nav-bar {
+    display: none;
+  }
+  .right-container {
+    max-width: 100% !important;
+    flex: 1 !important;
+    padding: 0px !important;
+  }
+  .row {
+    margin: 0px !important;
+  }
 }
 @media (max-width: 684px) and (min-width: 568px) {
-    .container-backkground {
-        padding: 15px !important;
-        margin: 0px !important;
-        // border-bottom: 1px solid gray;
-      }
-      .header-main {
-        display: none !important;
-      }
-      .show-for-mobile {
-        display: block;
-      }
-      .side-nav-bar {
-        display: none;
-      }
-      .right-container {
-        max-width: 100% !important;
-        flex: 1 !important;
-        padding: 0px !important;
-      }
-      .row {
-        margin: 0px !important;
-      }
+  .container-backkground {
+    padding: 15px !important;
+    margin: 0px !important;
+    // border-bottom: 1px solid gray;
+  }
+  .header-main {
+    display: none !important;
+  }
+  .show-for-mobile {
+    display: block;
+  }
+  .side-nav-bar {
+    display: none;
+  }
+  .right-container {
+    max-width: 100% !important;
+    flex: 1 !important;
+    padding: 0px !important;
+  }
+  .row {
+    margin: 0px !important;
+  }
 }
 @media (max-width: 567px) and (min-width: 480px) {
   .container-backkground {

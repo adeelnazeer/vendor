@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default () => {
   return (
     <>
-      <div className="d-flex justify-content-center bglightgrey">
+      <div className="d-flex justify-content-center bglightgrey logins-container">
         <div className="container d-flex justify-content-center pd-top-50-5 pd-bottom-50-5">
           <div className="col-5 pd-70 bgwhite bd-rad-8">
             <div className="txt-align-cntr">
