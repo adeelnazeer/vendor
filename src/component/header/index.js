@@ -181,7 +181,7 @@ export default () => {
         </div>
       </div>
       {test && (
-        <div className="model">
+        <div className="model-55">
           <div>
             <Link to="/message">
               <h6>Message</h6>
